@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  text-align: center;
+  background-color: #f5f5f5;
+  min-height: 762px;
+}
+
+.App-header, .App-main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.App-header h1 {
+  font-size: 100px;
+  color: rgba(175, 47, 47, 0.15);
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.new-todo {
+  width: 550px;
+  height: 50px;
+  /*border-radius: 20px;*/
+}
+
+.todo-posts {
+  min-width: 550px;
+}
+
+.ant-card-body {
+  padding: 10px !important;
+}
+
+.todo-list {
+  list-style: none;
+  margin: 15px 25px;
+}
+
+.todo-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-item {
+  display: flex;
+  align-self: center;
+  gap: 20px;
+}
+
+.post-btn {
+  display: flex;
+  gap: 10px;
+}
+
+.todo-checkbox {
+  height: 20px;
+  width: 20px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.post_filter {
+  max-width: 300px;
+  margin: 20px auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  gap: 20px;
+}
+.navbar li {
+  list-style-type: none;
+}
